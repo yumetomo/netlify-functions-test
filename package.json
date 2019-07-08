@@ -5,9 +5,11 @@
   "main": "api/hello.js",
   "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "netlify-lambda serve functions"
   },
   "dependencies": {
+    "netlify-lambda": "^1.5.0",
     "node-fetch": "^2.6.0"
   }
 }

@@ -1,0 +1,2 @@
+[build]
+  functions = "api" #  netlify-lambda reads this
