@@ -1,4 +1,4 @@
-import fetch from ("node-fetch");
+const fetch = require("node-fetch").default;
 
 exports.handler = async () => {
   const URL = `https://xivapi.com/Town?key=${process.env.API_KEY}`;
