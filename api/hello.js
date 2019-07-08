@@ -1,4 +1,5 @@
 const fetch = require("node-fetch").default;
+
 exports.handler = async () => {
   const URL = 'https://xivapi.com/Recipe/1?language=ja'
   fetch(URL)
