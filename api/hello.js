@@ -1,6 +1,12 @@
+import fetch from 'node-fetch';
 exports.handler = async () => {
-  return {
-    statusCode: 200,
-    body: 'Hello World',
-  };
+  const URL = 'https://xivapi.com/Recipe/1?language=ja'
+  fetch(URL)
+    .then(response => response.json())
+    .then(data => {
+      return {
+        statusCode: 200,
+        body: JSON.stringify(data.Results)
+      };
+    })
 };
