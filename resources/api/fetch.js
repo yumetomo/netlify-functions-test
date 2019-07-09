@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 exports.handler = async () => {
-  const URL = `https://xivapi.com/Town?key=1c309dc1c3f545a9aa2b804f`;
+  const URL = `https://xivapi.com/Town?key=${process.env.API_KEY}`;
   return axios.get(URL)
     .then(({ data: data }) => ({
       statusCode: 200,
