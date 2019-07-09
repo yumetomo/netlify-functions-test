@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/yumetomo/netlify-functions-test#readme",
   "dependencies": {
+    "dotenv-webpack": "^1.7.0",
     "netlify-lambda": "^1.5.0"
   }
 }
