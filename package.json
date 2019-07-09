@@ -1,0 +1,24 @@
+{
+  "name": "netlify_functions_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "netlify-lambda serve resources/api",
+    "build": "netlify-lambda build resources/api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumetomo/netlify-functions-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yumetomo/netlify-functions-test/issues"
+  },
+  "homepage": "https://github.com/yumetomo/netlify-functions-test#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.5.0"
+  }
+}
