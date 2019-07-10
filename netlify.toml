@@ -1,5 +1,0 @@
-[build]
-  command = "npm run build"
-  functions = "dist/api"
-[build.environment]
-  KEY="hogefuga"
